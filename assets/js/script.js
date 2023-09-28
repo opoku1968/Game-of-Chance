@@ -57,5 +57,129 @@ const game = () => {
         });
 
     };
+};
+
+// Function to decide winner
+const winner = (player, computer) => {
+
+    const result = document.querySelector('.result');
+    const playerScoreBoard = document.querySelector('.p-count');
+    const computerScoreBoard = document.querySelector('.c-count');
+    player = player.toLowerCase();
+    computer = computer.toLowerCase();
+
+
+
+    if (player == 'rock') {
+        playerChoiceImg.src = choices[0].image;
+    }
+    if (computer == 'rock') {
+        computerChoiceImg.src = choices[0].image;
+    }
+    if (player == 'paper') {
+        playerChoiceImg.src = choices[1].image;
+    }
+    if (computer == 'paper') {
+        computerChoiceImg.src = choices[1].image;
+    }
+    if (player == 'scissors') {
+        playerChoiceImg.src = choices[2].image;
+    }
+    if (computer == 'scissors') {
+        computerChoiceImg.src = choices[2].image;
+    }
+
+
+    if (player === computer) {
+        result.textContent = 'Tie';
+
+        if (player == 'rock') {
+            playerChoiceImg.src = choices[0].image;
+        }
+        if (computer == 'rock') {
+            computerChoiceImg.src = choices[0].image;
+        }
+        if (player == 'paper') {
+            playerChoiceImg.src = choices[1].image;
+        }
+        if (computer == 'paper') {
+            computerChoiceImg.src = choices[1].image;
+        }
+        if (player == 'scissors') {
+            playerChoiceImg.src = choices[2].image;
+        }
+        if (computer == 'scissors') {
+            computerChoiceImg.src = choices[2].image;
+        }
+
+
+    }
+    else if (player == 'rock') {
+        if (computer == 'paper') {
+            // setting image
+            // computerChoiceImg.src = choices[1].image;
+
+            result.textContent = 'Computer Won';
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+
+
+
+
+        } else {
+            // setting image
+            // playerChoiceImg.src = choices[0].image;
+
+            result.textContent = 'Player Won';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+
+
+        }
+    }
+    else if (player == 'scissors') {
+        if (computer == 'rock') {
+            // setting image
+            // computerChoiceImg.src = choices[0].image;
+
+            result.textContent = 'Computer Won';
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+
+
+        } else {
+            // setting image
+            // playerChoiceImg.src = choices[2].image;
+
+            result.textContent = 'Player Won';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+
+
+        }
+    }
+    else if (player == 'paper') {
+        if (computer == 'scissors') {
+            // setting image
+            // computerChoiceImg.src = choices[2].image;
+
+            result.textContent = 'Computer Won';
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+
+
+        } else {
+            // setting image
+            // playerChoiceImg.src = choices[1].image;
+
+            result.textContent = 'Player Won';
+            playerScore++;
+            playerScoreBoard.textContent = playerScore;
+
+
+        }
+    }
+};
+
 
 
