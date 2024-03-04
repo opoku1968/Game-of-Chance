@@ -49,12 +49,12 @@ The Game of Chance website has been tested on different browsers to ensure compa
 #### HTML
 
 - **Result:** Passed W3C validator without errors.
-[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fopoku1968.github.io%2Fasstiwaap1%2Findex.html)
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fopoku1968.github.io%2FGame-of-Chancep2%2Fl)
 
 #### CSS
 
 - **Result:** Passed Jigsaw validator without errors.
-[Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fopoku1968.github.io%2Fasstiwaap1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fopoku1968.github.io%2FGame-of-Chancep2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 #### Javascript
 
@@ -68,7 +68,7 @@ The Game of Chance website has been tested on different browsers to ensure compa
 No significant bugs or issues were identified during testing. The website performs optimally across various platforms and browsers.
 
 ### Screenshots of finished Project
-![alt text](assets/images/Screenshot279.png)
+![alt text](assets/images/Image_1.png)
 
 
 ## Deployment
@@ -105,10 +105,7 @@ The Game of Chance website is deployed on GitHub Pages. Below are the steps take
 
 - The images used in this project, including the logo, slider image, and historical photographs, are sourced from open-access repositories, historical archives, and public domain collections. The goal is to respect copyright and use images that are freely available for public use.
 
-- The home image ("assets/images/yaa_slider.jpg") is sourced from Google Images.
-
-
-- The logo image ("assets/images/logo.png")  sourced from Google Images.
+- The logo image ("assets/images/ya.png")  sourced from Google Images.
 
 
 
