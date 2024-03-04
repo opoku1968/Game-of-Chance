@@ -11,7 +11,7 @@ The Game of chance website is a website that provides an interactive rock paper 
 
 ### Home
 
-- The Home Page is the main interface and only page of the website.it includes a scoreboard which indicates the score of the user and the computer.it also provides three buttons or options for the user to choose from.the is also a section which indicates the number of moves a user has left before the game ends. 
+- The Home Page is the main interface and only page of the website.it includes a scoreboard which indicates the score of the user and the computer.It also provides three buttons or options for the user to choose from.there is also a section which indicates the number of moves a user has left before the game ends. 
 
 
 ## Testing
