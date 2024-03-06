@@ -49,7 +49,7 @@ The Game of Chance website has been tested on different browsers to ensure compa
 #### HTML
 
 - **Result:** Passed W3C validator without errors.
-[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fopoku1968.github.io%2FGame-of-Chancep2%2Fl)
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fopoku1968.github.io%2FGame-of-Chancep2%2F)
 
 #### CSS
 
