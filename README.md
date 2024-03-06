@@ -1,6 +1,6 @@
 # Game of Chance
 
-The Game of chance website is a website that provides an interactive rock paper scissors game for users where they are able to play with their computer.Rock paper scissors is a game played between 2 competitors where each form a shapes of rock or paper or scissors with their hands and the rule is rock crushed scissors,scissors cut through paper and paper wrap around rock.
+The Game of Chance website is a website that provides an interactive rock paper scissors game for users where they can play with their computer. Rock paper scissors is a game played between 2 competitors where each forms a shape of rock or paper or scissors with their hands and the rule is rock crushed scissors, scissors cut through paper and paper wrapped around rock.
 
 
 
@@ -11,7 +11,7 @@ The Game of chance website is a website that provides an interactive rock paper 
 
 ### Home
 
-- The Home Page is the main interface and only page of the website.it includes a scoreboard which indicates the score of the user and the computer.It also provides three buttons or options for the user to choose from.there is also a section which indicates the number of moves a user has left before the game ends. 
+- The Home Page is the main interface and only page of the website. It includes a scoreboard that indicates the score of the user and the computer. It also provides three buttons or options for the user to choose from. there is also a section that indicates the number of moves a user has left before the game ends. 
 
 
 ## Testing
@@ -22,9 +22,9 @@ The Game of Chance website has undergone thorough testing to ensure functionalit
 
 #### Home 
 
-- **Expected:** An interface to provide a user with their scores and also buttons to indicate the move that they want to make and a section which indicates the number of moves a player has left.
+- **Expected:** An interface to provide a user with their scores and also buttons to indicate the move that they want to make and a section that indicates the number of moves a player has left.
 
-- **Result:**This page indicates all the feartures that the website is supposed to have.
+- **Result:** This page indicates all the features that the website is supposed to have.
 
 
 ### Responsiveness Testing
@@ -67,7 +67,7 @@ The Game of Chance website has been tested on different browsers to ensure compa
 
 No significant bugs or issues were identified during testing. The website performs optimally across various platforms and browsers.
 
-### Screenshots of finished Project
+### Screenshots of the finished Project
 ![alt text](assets/images/Image_1.png)
 
 
@@ -111,7 +111,7 @@ The Game of Chance website is deployed on GitHub Pages. Below are the steps take
 
 ### Code and Implementation
 
-- The website layout and styling are based on custom code created by Kofi Opoku (ME). The CSS styles, HTML structure,and javascripts and interactive features are original work for this project.
+- The website layout and styling are based on custom code created by Kofi Opoku (ME). The CSS styles, HTML structure, javascript, and interactive features are original work for this project.
 
 - Inspiration for responsive design and navigation implementation was drawn from various online tutorials and resources, including [W3's Tutorials](https://www.w3schools.com/html/html_responsive.asp).
 
